@@ -3,7 +3,7 @@ var ws = require('websocket.io');
 
 
 var server = ws.listen(3000, function () {
-  console.log('\033[96m Server runnin　\033[39m');
+  console.log('Server running');
 });
 
 
